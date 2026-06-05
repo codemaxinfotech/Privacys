@@ -1,11 +1,11 @@
 {
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "provider_priority": [
       "admob",
       "meta",
-      "ironsource",
-      "applowin"
+      "unity",
+      "ironsource"
     ],
     "providers": {
       "admob": {
@@ -42,14 +42,6 @@
           "profile": {
             "enabled": false,
             "ad_unit_id": "ca-app-pub-7609438153891741/6853341661"
-          },
-          "test": {
-            "enabled": true,
-            "ad_unit_id": ""
-          },
-          "test2": {
-            "enabled": true,
-            "ad_unit_id": "222"
           }
         },
         "interstitial": {
@@ -143,6 +135,53 @@
           }
         }
       },
+      "unity": {
+        "enabled": false,
+        "game_id": "6107316",
+        "banner": {
+          "home_main": {
+            "enabled": true,
+            "ad_unit_id": "unity_banner_-_home_"
+          },
+          "home": {
+            "enabled": false,
+            "placement_id": "unity_banner_-_home_"
+          },
+          "search": {
+            "enabled": false,
+            "placement_id": "Banner_Profile"
+          },
+          "detail": {
+            "enabled": false,
+            "placement_id": "Unity_Banner_Detail"
+          },
+          "dl_detail": {
+            "enabled": false,
+            "placement_id": "Unity Banner DL Detail"
+          },
+          "history": {
+            "enabled": false,
+            "placement_id": "Banner_History"
+          },
+          "profile": {
+            "enabled": false,
+            "placement_id": "Banner_Profile"
+          }
+        },
+        "interstitial": {
+          "enabled": true,
+          "frequency": 2,
+          "search": {
+            "placement_id": "Rewarded_Android"
+          }
+        },
+        "rewarded": {
+          "enabled": true,
+          "search": {
+            "placement_id": "Rewarded_Android"
+          }
+        }
+      },
       "ironsource": {
         "enabled": false,
         "app_key": "2676ca76d",
@@ -203,22 +242,6 @@
             "ad_unit_id": "mm6zj7bz4qayscyk"
           }
         }
-      },
-      "applowin": {
-        "enabled": false,
-        "app_open": {
-          "enabled": false,
-          "ad_unit_id": ""
-        },
-        "banner": {},
-        "interstitial": {
-          "enabled": false,
-          "frequency": 2
-        },
-        "rewarded": {
-          "enabled": false
-        },
-        "native": {}
       }
     }
   },
