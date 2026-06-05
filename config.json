@@ -1,0 +1,248 @@
+{
+  "ads": {
+    "enabled": true,
+    "provider_priority": [
+      "admob",
+      "meta",
+      "unity",
+      "ironsource"
+    ],
+    "providers": {
+      "admob": {
+        "enabled": true,
+        "app_open": {
+          "enabled": true,
+          "ad_unit_id": "ca-app-pub-7609438153891741/8215577145"
+        },
+        "banner": {
+          "home_main": {
+            "enabled": true,
+            "ad_unit_id": "ca-app-pub-7609438153891741/7853725853"
+          },
+          "home": {
+            "enabled": false,
+            "ad_unit_id": "ca-app-pub-7609438153891741/5780985494"
+          },
+          "search": {
+            "enabled": false,
+            "ad_unit_id": "ca-app-pub-7609438153891741/6822604426"
+          },
+          "detail": {
+            "enabled": false,
+            "ad_unit_id": "ca-app-pub-7609438153891741/9754837170"
+          },
+          "dl_detail": {
+            "enabled": false,
+            "ad_unit_id": "ca-app-pub-7609438153891741/9327461767"
+          },
+          "history": {
+            "enabled": false,
+            "ad_unit_id": "ca-app-pub-7609438153891741/2098784995"
+          },
+          "profile": {
+            "enabled": false,
+            "ad_unit_id": "ca-app-pub-7609438153891741/6853341661"
+          }
+        },
+        "interstitial": {
+          "enabled": true,
+          "frequency": 2,
+          "search": {
+            "ad_unit_id": "ca-app-pub-7609438153891741/5540259995"
+          }
+        },
+        "rewarded": {
+          "enabled": true,
+          "search": {
+            "ad_unit_id": "ca-app-pub-7609438153891741/4474590334"
+          }
+        },
+        "native": {
+          "home": {
+            "enabled": true,
+            "ad_unit_id": "ca-app-pub-7609438153891741/5787672003"
+          },
+          "loading": {
+            "enabled": true,
+            "ad_unit_id": "ca-app-pub-7609438153891741/6383082690"
+          },
+          "detail": {
+            "enabled": true,
+            "ad_unit_id": "ca-app-pub-7609438153891741/6293555578"
+          }
+        }
+      },
+      "meta": {
+        "enabled": true,
+        "banner": {
+          "home_main": {
+            "enabled": true,
+            "ad_unit_id": "3902462033390284_3929297970706690"
+          },
+          "home": {
+            "enabled": false,
+            "placement_id": "3902462033390284_3902468066723014"
+          },
+          "search": {
+            "enabled": false,
+            "placement_id": "3902462033390284_3902468393389648"
+          },
+          "detail": {
+            "enabled": false,
+            "placement_id": "3902462033390284_3902468573389630"
+          },
+          "dl_detail": {
+            "enabled": false,
+            "placement_id": "3902462033390284_3905484276421393"
+          },
+          "history": {
+            "enabled": false,
+            "placement_id": "3902462033390284_3902469326722888"
+          },
+          "profile": {
+            "enabled": false,
+            "placement_id": "3902462033390284_3905485113087976"
+          }
+        },
+        "interstitial": {
+          "enabled": true,
+          "frequency": 2,
+          "search": {
+            "placement_id": "3902462033390284_3902469603389527"
+          }
+        },
+        "rewarded": {
+          "enabled": true,
+          "search": {
+            "placement_id": "3902462033390284_3929171080719379"
+          }
+        },
+        "native": {
+          "home": {
+            "enabled": true,
+            "type": "medium_rectangle",
+            "placement_id": "3902462033390284_3902470056722815"
+          },
+          "loading": {
+            "enabled": true,
+            "type": "medium_rectangle",
+            "ad_unit_id": "3902462033390284_3929207507382403"
+          },
+          "detail": {
+            "enabled": true,
+            "type": "medium_rectangle",
+            "ad_unit_id": "3902462033390284_3929207487382405"
+          }
+        }
+      },
+      "unity": {
+        "enabled": false,
+        "game_id": "6107316",
+        "banner": {
+          "home_main": {
+            "enabled": true,
+            "ad_unit_id": "unity_banner_-_home_"
+          },
+          "home": {
+            "enabled": false,
+            "placement_id": "unity_banner_-_home_"
+          },
+          "search": {
+            "enabled": false,
+            "placement_id": "Banner_Profile"
+          },
+          "detail": {
+            "enabled": false,
+            "placement_id": "Unity_Banner_Detail"
+          },
+          "dl_detail": {
+            "enabled": false,
+            "placement_id": "Unity Banner DL Detail"
+          },
+          "history": {
+            "enabled": false,
+            "placement_id": "Banner_History"
+          },
+          "profile": {
+            "enabled": false,
+            "placement_id": "Banner_Profile"
+          }
+        },
+        "interstitial": {
+          "enabled": true,
+          "frequency": 2,
+          "search": {
+            "placement_id": "Rewarded_Android"
+          }
+        },
+        "rewarded": {
+          "enabled": true,
+          "search": {
+            "placement_id": "Rewarded_Android"
+          }
+        }
+      },
+      "ironsource": {
+        "enabled": false,
+        "app_key": "2676ca76d",
+        "banner": {
+          "home": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "search": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "detail": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "dl_detail": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "history": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "profile": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "home_main": {
+            "enabled": true,
+            "ad_unit_id": "8vve792i0oi1e3sb"
+          }
+        },
+        "interstitial": {
+          "enabled": true,
+          "frequency": 2,
+          "search": {
+            "ad_unit_id": "uj8ro7p3r0kj7cm2"
+          }
+        },
+        "rewarded": {
+          "enabled": true,
+          "search": {
+            "ad_unit_id": "p2e4ieso922ks86y"
+          }
+        },
+        "native": {
+          "home": {
+            "enabled": false,
+            "ad_unit_id": "mm6zj7bz4qayscyk"
+          },
+          "loading": {
+            "enabled": false,
+            "ad_unit_id": "mm6zj7bz4qayscyk"
+          },
+          "detail": {
+            "enabled": false,
+            "ad_unit_id": "mm6zj7bz4qayscyk"
+          }
+        }
+      }
+    }
+  }
+}
