@@ -4,7 +4,8 @@
     "provider_priority": [
       "admob",
       "meta",
-      "ironsource"
+      "ironsource",
+      "applowin"
     ],
     "providers": {
       "admob": {
@@ -202,6 +203,22 @@
             "ad_unit_id": "mm6zj7bz4qayscyk"
           }
         }
+      },
+      "applowin": {
+        "enabled": false,
+        "app_open": {
+          "enabled": false,
+          "ad_unit_id": ""
+        },
+        "banner": {},
+        "interstitial": {
+          "enabled": false,
+          "frequency": 2
+        },
+        "rewarded": {
+          "enabled": false
+        },
+        "native": {}
       }
     }
   },
