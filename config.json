@@ -1,10 +1,9 @@
 {
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "provider_priority": [
       "admob",
       "meta",
-      "unity",
       "ironsource"
     ],
     "providers": {
@@ -42,6 +41,14 @@
           "profile": {
             "enabled": false,
             "ad_unit_id": "ca-app-pub-7609438153891741/6853341661"
+          },
+          "test": {
+            "enabled": true,
+            "ad_unit_id": ""
+          },
+          "test2": {
+            "enabled": true,
+            "ad_unit_id": "222"
           }
         },
         "interstitial": {
@@ -135,53 +142,6 @@
           }
         }
       },
-      "unity": {
-        "enabled": false,
-        "game_id": "6107316",
-        "banner": {
-          "home_main": {
-            "enabled": true,
-            "ad_unit_id": "unity_banner_-_home_"
-          },
-          "home": {
-            "enabled": false,
-            "placement_id": "unity_banner_-_home_"
-          },
-          "search": {
-            "enabled": false,
-            "placement_id": "Banner_Profile"
-          },
-          "detail": {
-            "enabled": false,
-            "placement_id": "Unity_Banner_Detail"
-          },
-          "dl_detail": {
-            "enabled": false,
-            "placement_id": "Unity Banner DL Detail"
-          },
-          "history": {
-            "enabled": false,
-            "placement_id": "Banner_History"
-          },
-          "profile": {
-            "enabled": false,
-            "placement_id": "Banner_Profile"
-          }
-        },
-        "interstitial": {
-          "enabled": true,
-          "frequency": 2,
-          "search": {
-            "placement_id": "Rewarded_Android"
-          }
-        },
-        "rewarded": {
-          "enabled": true,
-          "search": {
-            "placement_id": "Rewarded_Android"
-          }
-        }
-      },
       "ironsource": {
         "enabled": false,
         "app_key": "2676ca76d",
@@ -244,5 +204,18 @@
         }
       }
     }
+  },
+  "appConfig": {
+    "update_enabled": true,
+    "update_force_version_code": 20,
+    "update_flexible_version_code": 20,
+    "privacy_policy_url": "https://vehicleinfo-89a11.web.app/privacy.html",
+    "netqpackagename": "com.tradetu.trendingapps.vehicleregistrationdetails",
+    "netqversioncode": "164",
+    "netqversionname": "1.0.1.164",
+    "unlock_enabled": false,
+    "history_unlock_enabled": false,
+    "rc_unlock_ad_count": 1,
+    "dl_unlock_ad_count": 1
   }
 }
