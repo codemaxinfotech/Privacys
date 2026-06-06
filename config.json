@@ -139,27 +139,27 @@
         "app_key": "2676ca76d",
         "banner": {
           "home": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": ""
           },
           "search": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": ""
           },
           "detail": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": ""
           },
           "dl_detail": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": ""
           },
           "history": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": ""
           },
           "profile": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": ""
           },
           "home_main": {
@@ -177,7 +177,8 @@
         "rewarded": {
           "enabled": true,
           "search": {
-            "ad_unit_id": "p2e4ieso922ks86y"
+            "ad_unit_id": "p2e4ieso922ks86y",
+            "enabled": true
           }
         },
         "native": {
