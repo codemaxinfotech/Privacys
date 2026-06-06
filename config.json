@@ -4,7 +4,6 @@
     "provider_priority": [
       "admob",
       "meta",
-      "unity",
       "ironsource"
     ],
     "providers": {
@@ -132,53 +131,6 @@
             "enabled": true,
             "type": "medium_rectangle",
             "ad_unit_id": "3902462033390284_3929207487382405"
-          }
-        }
-      },
-      "unity": {
-        "enabled": false,
-        "game_id": "6107316",
-        "banner": {
-          "home_main": {
-            "enabled": true,
-            "ad_unit_id": "unity_banner_-_home_"
-          },
-          "home": {
-            "enabled": false,
-            "placement_id": "unity_banner_-_home_"
-          },
-          "search": {
-            "enabled": false,
-            "placement_id": "Banner_Profile"
-          },
-          "detail": {
-            "enabled": false,
-            "placement_id": "Unity_Banner_Detail"
-          },
-          "dl_detail": {
-            "enabled": false,
-            "placement_id": "Unity Banner DL Detail"
-          },
-          "history": {
-            "enabled": false,
-            "placement_id": "Banner_History"
-          },
-          "profile": {
-            "enabled": false,
-            "placement_id": "Banner_Profile"
-          }
-        },
-        "interstitial": {
-          "enabled": true,
-          "frequency": 2,
-          "search": {
-            "placement_id": "Rewarded_Android"
-          }
-        },
-        "rewarded": {
-          "enabled": true,
-          "search": {
-            "placement_id": "Rewarded_Android"
           }
         }
       },
