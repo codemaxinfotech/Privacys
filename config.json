@@ -23,7 +23,7 @@
             "ad_unit_id": "ca-app-pub-7609438153891741/5780985494"
           },
           "search": {
-            "enabled": true,
+            "enabled": false,
             "ad_unit_id": "ca-app-pub-7609438153891741/6822604426"
           },
           "detail": {
@@ -83,7 +83,7 @@
             "placement_id": "3902462033390284_3902468066723014"
           },
           "search": {
-            "enabled": true,
+            "enabled": false,
             "placement_id": "3902462033390284_3902468393389648"
           },
           "detail": {
