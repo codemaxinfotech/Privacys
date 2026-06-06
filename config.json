@@ -3,8 +3,8 @@
     "enabled": true,
     "provider_priority": [
       "admob",
-      "meta",
-      "ironsource"
+      "ironsource",
+      "meta"
     ],
     "providers": {
       "admob": {
@@ -23,7 +23,7 @@
             "ad_unit_id": "ca-app-pub-7609438153891741/5780985494"
           },
           "search": {
-            "enabled": false,
+            "enabled": true,
             "ad_unit_id": "ca-app-pub-7609438153891741/6822604426"
           },
           "detail": {
