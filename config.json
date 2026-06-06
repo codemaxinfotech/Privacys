@@ -135,7 +135,7 @@
         }
       },
       "ironsource": {
-        "enabled": false,
+        "enabled": true,
         "app_key": "2676ca76d",
         "banner": {
           "home": {
