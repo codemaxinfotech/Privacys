@@ -255,7 +255,7 @@
     "netqversionname": "1.0.1.164",
     "unlock_enabled": true,
     "history_unlock_enabled": true,
-    "rc_unlock_ad_count": 1,
-    "dl_unlock_ad_count": 1
+    "rc_unlock_ad_count": 2,
+    "dl_unlock_ad_count": 2
   }
 }
