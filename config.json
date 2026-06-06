@@ -253,8 +253,8 @@
     "netqpackagename": "com.tradetu.trendingapps.vehicleregistrationdetails",
     "netqversioncode": "164",
     "netqversionname": "1.0.1.164",
-    "unlock_enabled": false,
-    "history_unlock_enabled": false,
+    "unlock_enabled": true,
+    "history_unlock_enabled": true,
     "rc_unlock_ad_count": 1,
     "dl_unlock_ad_count": 1
   }
