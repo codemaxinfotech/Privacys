@@ -2,8 +2,8 @@
   "ads": {
     "enabled": true,
     "provider_priority": [
-      "admob",
       "ironsource",
+      "admob",
       "meta"
     ],
     "providers": {
