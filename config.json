@@ -9,7 +9,7 @@
     ],
     "providers": {
       "admob": {
-        "enabled": false,
+        "enabled": true,
         "app_open": {
           "enabled": true,
           "ad_unit_id": "ca-app-pub-7609438153891741/8215577145"
@@ -73,7 +73,7 @@
         }
       },
       "meta": {
-        "enabled": true,
+        "enabled": false,
         "banner": {
           "home_main": {
             "enabled": true,
