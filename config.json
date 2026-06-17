@@ -256,6 +256,7 @@
     "unlock_enabled": true,
     "history_unlock_enabled": false,
     "rc_unlock_ad_count": 3,
-    "dl_unlock_ad_count": 3
+    "dl_unlock_ad_count": 3,
+    "challan_skey": "P@$$w0rdS3cr3tKey!23"
   }
 }
