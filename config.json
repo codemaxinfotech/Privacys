@@ -1,6 +1,6 @@
 {
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "provider_priority": [
       "admob",
       "meta",
