@@ -1,6 +1,6 @@
 {
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "provider_priority": [
       "admob",
       "meta",
@@ -73,7 +73,7 @@
         }
       },
       "meta": {
-        "enabled": true,
+        "enabled": false,
         "banner": {
           "home_main": {
             "enabled": true,
