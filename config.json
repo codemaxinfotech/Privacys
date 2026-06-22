@@ -247,8 +247,8 @@
   },
   "appConfig": {
     "update_enabled": true,
-    "update_force_version_code": 21,
-    "update_flexible_version_code": 21,
+    "update_force_version_code": 23,
+    "update_flexible_version_code": 23,
     "privacy_policy_url": "https://vehicleinfo-89a11.web.app/privacy.html",
     "netqpackagename": "com.tradetu.trendingapps.vehicleregistrationdetails",
     "netqversioncode": "164",
